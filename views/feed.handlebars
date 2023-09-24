@@ -1,0 +1,8 @@
+<section class="feed">
+    <h2 class="opaquish" id="feed_the_blog">FEED</h2>
+    <ul class="blog_feed">
+        {{#each processedBlogs as |blog|}}
+        <li>{{> card }}</li>
+        {{/each}}
+    </ul>
+</section>

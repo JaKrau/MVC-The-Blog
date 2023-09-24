@@ -1,0 +1,13 @@
+<section class="dashboard">
+    <h2 class="opaquish dashboard">My Dashboard</h2>
+    <button id="new_post_dashboard" class="nav_button join_button">New Post</button>
+    <ul class="blog_feed">
+        <li>{{> card_new}}</li>
+        {{#each processedBlogs as |blog|}}
+            <li>{{> card }}</li>
+        {{/each}}
+    </ul>
+    
+</section> 
+
+<script src="./js/dashboard.js"></script>

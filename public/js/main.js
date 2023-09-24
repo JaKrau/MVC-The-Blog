@@ -1,0 +1,1 @@
+// Having main.js prevents some console error

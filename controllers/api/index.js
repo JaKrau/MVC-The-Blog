@@ -1,8 +1,12 @@
-const router = require('express').Router();
-const blogPostRoutes = require('./blogPostRoutes');
-const userAuth = require('./userAuth');
+// INDEX FOR API ROUTES
 
-router.use('/blog', blogPostRoutes);
-router.use('/users', userAuth);
+const router = require('express').Router();
+const userRoutes = require('./userRoutes');
+const blogRoutes = require('./blogRoutes');
+const commentRoutes = require('./commentRoutes');
+
+router.use('/users', userRoutes);
+router.use('/blog', blogRoutes);
+router.use('/comment', commentRoutes);
 
 module.exports = router;

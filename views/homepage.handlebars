@@ -1,0 +1,20 @@
+<section class="two_section">
+    <div class="ts_text">
+        <p class="two_section_p">I'm Nobody! Who are you?</p> 
+        <!--"I'm Nobody! Who are you? -Emily Dickinson (1830-1886)"-->
+        {{#if logged_in}}
+        <a class="nav_button" href="/feed"><button>Return to the Blog</button></a>
+        {{else}}
+        <a class="nav_button" href="/login"><button>Enter the Admiring Bog</button></a>
+        {{/if}}
+    </div>
+    <div class="ts_feed opaquish">
+        <h2>Featured Content</h2>
+        <ul style="list-style-type: none; width: 100%">
+            {{#each blogs as |blog|}}
+            <li>{{> card_homepage }}</li>
+            {{/each}}
+        </ul>
+    </div>
+</section>
+

@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Great topic! Woo!",
+    "author_id": 1,
+    "blog_id": 4
+  },
+  {
+    "text": "Great topic! Yay!",
+    "author_id": 2,
+    "blog_id": 3
+  },
+  {
+    "text": "Great topic! Yippy!",
+    "author_id": 3,
+    "blog_id": 2
+  },
+  {
+    "text": "Great topic! Wootwoot!",
+    "author_id": 4,
+    "blog_id": 1
+  }
+]

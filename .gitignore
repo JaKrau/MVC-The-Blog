@@ -1,2 +1,9 @@
 .env
+.DS_Store
+.AppleDouble
+.LSOverride
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
 node_modules
