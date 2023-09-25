@@ -4,7 +4,7 @@ A blogging/forum app using node.js, express, handlebars, and mysql/sequelize.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[App Live Here](https://the-blog-a70fd43fbaef.herokuapp.com/)
+[heroku link](https://the-blog-a70fd43fbaef.herokuapp.com/)
 
 ## Description 
 
@@ -65,7 +65,7 @@ Open your browser to localhost:3001
 
 
 ## Contributions
-  You are welcome to contribute! I look forward to hearing from you
+  I can't get this thing to run without crashing on Heroku, help in that matter would be greatly appreciated!
 
 ## Questions
   Please reach out to me if you have any questions about the functionality of the app or installation
