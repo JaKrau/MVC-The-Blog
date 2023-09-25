@@ -4,6 +4,7 @@
   "description": "MVC and Handlebars Blog",
   "main": "server.js",
   "scripts": {
+    "web": "node server.js",
     "start": "node server.js",
     "seeds": "node seeds/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
