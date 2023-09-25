@@ -1,5 +1,5 @@
 {
-  "name": "blog_db",
+  "name": "the_blog",
   "version": "1.0.0",
   "description": "MVC and Handlebars Blog",
   "main": "server.js",
