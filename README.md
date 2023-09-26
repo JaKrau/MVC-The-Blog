@@ -4,6 +4,7 @@ A blogging/forum app using node.js, express, handlebars, and mysql/sequelize.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Note: Heroku simply crashes at start-up, this app is presently only viewable via localhost.
 [heroku link](https://the-blog-a70fd43fbaef.herokuapp.com/)
 
 ## Description 
